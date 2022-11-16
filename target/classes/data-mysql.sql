@@ -1,0 +1,18 @@
+INSERT INTO dj-index-data (id,
+quarter,
+stock,
+date,
+open,
+high,
+low,
+close,
+volume,
+percent_change_price,
+percent_change_volume_over_last_wk,
+previous_weeks_volume,
+next_weeks_open,
+next_weeks_close,
+percent_change_next_weeks_price,
+days_to_next_dividend,
+percent_return_next_dividend)
+VALUES (1,"AA",STR_TO_DATE('1/17/2011', '%m/%d/%Y'),15.82,16.72,15.78,16.42,239655616,3.79267,,,16.71,15.97,-4.42849,26,0.182704)
